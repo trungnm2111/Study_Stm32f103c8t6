@@ -1,0 +1,349 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.33.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: trungnguyen trung nguyen, trung nguyen, LIC=D0D7S-LG1F7-RAYDM-XUEZR-K9DM0-V1GNG
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.33.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.33.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      UL2CM3.DLL V1.163.9.0
+Dialog DLL:      TCM.DLL V1.48.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Admin\Desktop\Code\Study\RTOS\Example_FreeRtos\13.FreeRTOS\MDK\FreeRTOSDemo.uvprojx
+Project File Date:  07/21/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'FreeRTOS'
+compiling Delay.c...
+compiling main.c...
+..\USER\main.c(40): warning:  #223-D: function "sprintf" declared implicitly
+        sprintf(TextTemp,"Task1:%4d",1234);
+..\USER\main.c(42): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+        Fn_N5110_Puts(TextTemp);
+..\USER\main.c(74): warning:  #223-D: function "sprintf" declared implicitly
+                sprintf(TextTemp,"Task1:%4d",Number1);
+..\USER\main.c(76): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                Fn_N5110_Puts(TextTemp);
+..\USER\main.c(87): warning:  #223-D: function "sprintf" declared implicitly
+                sprintf(TextTemp,"Task2:%4d",Number2);
+..\USER\main.c(89): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                Fn_N5110_Puts(TextTemp);
+..\USER\main.c(93): warning:  #1-D: last line of file ends without a newline
+  }
+..\USER\main.c: 7 warnings, 0 errors
+compiling SPI.c...
+..\USER\SPI\SPI.c(10): warning:  #177-D: function "SPI_DisableSlave"  was declared but never referenced
+  static void SPI_DisableSlave (void){
+..\USER\SPI\SPI.c: 1 warning, 0 errors
+compiling N5110.c...
+compiling misc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_spi.c...
+assembling startup_stm32f10x_cl.s...
+compiling system_stm32f10x.c...
+compiling freertos_evr.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\stream_buffer.h(894): error:  #20: identifier "StaticStreamBuffer_t" is undefined
+                                                         StaticStreamBuffer_t * const pxStaticStreamBuffer,
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Source\freertos_evr.c: 0 warnings, 1 error
+compiling croutine.c...
+compiling event_groups.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\event_groups.c(610): warning:  #223-D: function "vTaskRemoveFromUnorderedEventList" declared implicitly
+                  vTaskRemoveFromUnorderedEventList( pxListItem, pxEventBits->uxEventBits | eventUNBLOCKED_DUE_TO_BIT_SET );
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\event_groups.c(647): warning:  #223-D: function "vTaskRemoveFromUnorderedEventList" declared implicitly
+              vTaskRemoveFromUnorderedEventList( pxTasksWaitingForBits->xListEnd.pxNext, eventUNBLOCKED_DUE_TO_BIT_SET );
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\event_groups.c: 2 warnings, 0 errors
+compiling list.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\list.c(71): error:  #136: struct "xMINI_LIST_ITEM"  has no field "pvOwner"
+          pxList->xListEnd.pvOwner = NULL;
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\list.c(72): error:  #136: struct "xMINI_LIST_ITEM"  has no field "pxContainer"
+          pxList->xListEnd.pxContainer = NULL;
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\list.c(89): error:  #136: struct "xLIST_ITEM"  has no field "pxContainer"
+      pxItem->pxContainer = NULL;
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\list.c(122): error:  #136: struct "xLIST_ITEM"  has no field "pxContainer"
+      pxNewListItem->pxContainer = pxList;
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\list.c(193): error:  #136: struct "xLIST_ITEM"  has no field "pxContainer"
+      pxNewListItem->pxContainer = pxList;
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\list.c(203): error:  #136: struct "xLIST_ITEM"  has no field "pxContainer"
+      List_t * const pxList = pxItemToRemove->pxContainer;
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\list.c(221): error:  #136: struct "xLIST_ITEM"  has no field "pxContainer"
+      pxItemToRemove->pxContainer = NULL;
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\list.c: 0 warnings, 7 errors
+compiling heap_4.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\MemMang\heap_4.c(51): error:  #35: #error directive: This file must not be used if configSUPPORT_DYNAMIC_ALLOCATION is 0
+      #error This file must not be used if configSUPPORT_DYNAMIC_ALLOCATION is 0
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\MemMang\heap_4.c: 0 warnings, 1 error
+compiling port.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM_CM3\port.c(437): warning:  #223-D: function "vPortRaiseBASEPRI" declared implicitly
+      vPortRaiseBASEPRI();
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM_CM3\port.c(448): warning:  #223-D: function "vPortClearBASEPRIFromISR" declared implicitly
+      vPortClearBASEPRIFromISR();
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM_CM3\port.c: 2 warnings, 0 errors
+compiling queue.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(743): warning:  #223-D: function "xQueueSemaphoreTake" declared implicitly
+              xReturn = xQueueSemaphoreTake( pxMutex, xTicksToWait );
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(984): warning:  #223-D: function "vTaskInternalSetTimeOutState" declared implicitly
+                      vTaskInternalSetTimeOutState( &xTimeOut );
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(1378): error:  #79: expected a type specifier
+  BaseType_t xQueueReceive( QueueHandle_t xQueue,
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(1378): error:  #79: expected a type specifier
+  BaseType_t xQueueReceive( QueueHandle_t xQueue,
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(1378): error:  #79: expected a type specifier
+  BaseType_t xQueueReceive( QueueHandle_t xQueue,
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(1378): error:  #79: expected a type specifier
+  BaseType_t xQueueReceive( QueueHandle_t xQueue,
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(1378): error:  #141-D: unnamed prototyped parameters not allowed when body is present
+  BaseType_t xQueueReceive( QueueHandle_t xQueue,
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(1384): error:  #20: identifier "xQueue" is undefined
+      Queue_t * const pxQueue = xQueue;
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(1391): error:  #20: identifier "pvBuffer" is undefined
+      configASSERT( !( ( ( pvBuffer ) == NULL ) && ( ( pxQueue )->uxItemSize != ( UBaseType_t ) 0U ) ) );
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(1396): error:  #20: identifier "xTicksToWait" is undefined
+          configASSERT( !( ( xTaskGetSchedulerState() == taskSCHEDULER_SUSPENDED ) && ( xTicksToWait != 0 ) ) );
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(1442): error:  #20: identifier "xTicksToWait" is undefined
+                  if( xTicksToWait == ( TickType_t ) 0 )
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(1454): warning:  #223-D: function "vTaskInternalSetTimeOutState" declared implicitly
+                      vTaskInternalSetTimeOutState( &xTimeOut );
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(1473): error:  #20: identifier "xTicksToWait" is undefined
+          if( xTaskCheckForTimeOut( &xTimeOut, &xTicksToWait ) == pdFALSE )
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(1521): error:  #159: declaration is incompatible with previous "xQueueSemaphoreTake"  (declared at line 743)
+  BaseType_t xQueueSemaphoreTake( QueueHandle_t xQueue,
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(1617): warning:  #223-D: function "vTaskInternalSetTimeOutState" declared implicitly
+                      vTaskInternalSetTimeOutState( &xTimeOut );
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(1652): warning:  #223-D: function "xTaskPriorityInherit" declared implicitly
+                              xInheritanceOccurred = xTaskPriorityInherit( pxQueue->u.xSemaphore.xMutexHolder );
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(1712): warning:  #223-D: function "vTaskPriorityDisinheritAfterTimeout" declared implicitly
+                              vTaskPriorityDisinheritAfterTimeout( pxQueue->u.xSemaphore.xMutexHolder, uxHighestWaitingPriority );
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(1731): error:  #79: expected a type specifier
+  BaseType_t xQueuePeek( QueueHandle_t xQueue,
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(1731): error:  #79: expected a type specifier
+  BaseType_t xQueuePeek( QueueHandle_t xQueue,
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(1731): error:  #79: expected a type specifier
+  BaseType_t xQueuePeek( QueueHandle_t xQueue,
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(1731): error:  #79: expected a type specifier
+  BaseType_t xQueuePeek( QueueHandle_t xQueue,
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(1731): error:  #247: function "xQueueGenericReceive"  has already been defined
+  BaseType_t xQueuePeek( QueueHandle_t xQueue,
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(1731): error:  #141-D: unnamed prototyped parameters not allowed when body is present
+  BaseType_t xQueuePeek( QueueHandle_t xQueue,
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(1738): error:  #20: identifier "xQueue" is undefined
+      Queue_t * const pxQueue = xQueue;
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(1745): error:  #20: identifier "pvBuffer" is undefined
+      configASSERT( !( ( ( pvBuffer ) == NULL ) && ( ( pxQueue )->uxItemSize != ( UBaseType_t ) 0U ) ) );
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(1750): error:  #20: identifier "xTicksToWait" is undefined
+          configASSERT( !( ( xTaskGetSchedulerState() == taskSCHEDULER_SUSPENDED ) && ( xTicksToWait != 0 ) ) );
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(1802): error:  #20: identifier "xTicksToWait" is undefined
+                  if( xTicksToWait == ( TickType_t ) 0 )
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(1807): warning:  #223-D: function "traceQUEUE_PEEK_FAILED" declared implicitly
+                      traceQUEUE_PEEK_FAILED( pxQueue );
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(1815): warning:  #223-D: function "vTaskInternalSetTimeOutState" declared implicitly
+                      vTaskInternalSetTimeOutState( &xTimeOut );
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(1834): error:  #20: identifier "xTicksToWait" is undefined
+          if( xTaskCheckForTimeOut( &xTimeOut, &xTicksToWait ) == pdFALSE )
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(1840): warning:  #223-D: function "traceBLOCKING_ON_QUEUE_PEEK" declared implicitly
+                  traceBLOCKING_ON_QUEUE_PEEK( pxQueue );
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(1870): warning:  #223-D: function "traceQUEUE_PEEK_FAILED" declared implicitly
+                  traceQUEUE_PEEK_FAILED( pxQueue );
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(2881): error:  #147-D: declaration is incompatible with "void vQueueWaitForMessageRestricted(QueueHandle_t, TickType_t)"  (declared at line 1679 of "..\USER\FreeRTOS\include\queue.h")
+      void vQueueWaitForMessageRestricted( QueueHandle_t xQueue,
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(2906): error:  #140: too many arguments in function call
+              vTaskPlaceOnEventListRestricted( &( pxQueue->xTasksWaitingToReceive ), xTicksToWait, xWaitIndefinitely );
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(494): warning:  #177-D: function "prvInitialiseNewQueue"  was declared but never referenced
+  static void prvInitialiseNewQueue( const UBaseType_t uxQueueLength,
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c(542): warning:  #177-D: function "prvInitialiseMutex"  was declared but never referenced
+      static void prvInitialiseMutex( Queue_t * pxNewQueue )
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c: 12 warnings, 24 errors
+compiling stream_buffer.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\stream_buffer.h(894): error:  #20: identifier "StaticStreamBuffer_t" is undefined
+                                                         StaticStreamBuffer_t * const pxStaticStreamBuffer,
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\stream_buffer.c(48): error:  #35: #error directive: INCLUDE_xTaskGetCurrentTaskHandle must be set to 1 to build stream_buffer.c
+      #error INCLUDE_xTaskGetCurrentTaskHandle must be set to 1 to build stream_buffer.c
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\stream_buffer.c: 0 warnings, 2 errors
+compiling tasks.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c(304): error:  #20: identifier "configTASK_NOTIFICATION_ARRAY_ENTRIES" is undefined
+          volatile uint32_t ulNotifiedValue[ configTASK_NOTIFICATION_ARRAY_ENTRIES ];
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c(329): error:  #20: identifier "portDONT_DISCARD" is undefined
+  portDONT_DISCARD PRIVILEGED_DATA TCB_t * volatile pxCurrentTCB = NULL;
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c(329): error:  #101: "TCB_t" has already been declared in the current scope
+  portDONT_DISCARD PRIVILEGED_DATA TCB_t * volatile pxCurrentTCB = NULL;
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c(329): error:  #65: expected a ";"
+  portDONT_DISCARD PRIVILEGED_DATA TCB_t * volatile pxCurrentTCB = NULL;
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c(363): error:  #20: identifier "configINITIAL_TICK_COUNT" is undefined
+  PRIVILEGED_DATA static volatile TickType_t xTickCount = ( TickType_t ) configINITIAL_TICK_COUNT;
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c(442): error:  #757: variable "TCB_t"  is not a type name
+      static void prvDeleteTCB( TCB_t * pxTCB ) PRIVILEGED_FUNCTION;
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c(494): error:  #20: identifier "configSTACK_DEPTH_TYPE" is undefined
+      static configSTACK_DEPTH_TYPE prvTaskCheckFreeStackSpace( const uint8_t * pucStackByte ) PRIVILEGED_FUNCTION;
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c(540): error:  #757: variable "TCB_t"  is not a type name
+                                    TCB_t * pxNewTCB,
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c(547): error:  #757: variable "TCB_t"  is not a type name
+  static void prvAddNewTaskToReadyList( TCB_t * pxNewTCB ) PRIVILEGED_FUNCTION;
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c(822): error:  #757: variable "TCB_t"  is not a type name
+                                    TCB_t * pxNewTCB,
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c(1026): error:  #757: variable "TCB_t"  is not a type name
+  static void prvAddNewTaskToReadyList( TCB_t * pxNewTCB )
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c(1034): error:  #20: identifier "pxCurrentTCB" is undefined
+          if( pxCurrentTCB == NULL )
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c(1084): warning:  #223-D: function "listINSERT_END" declared implicitly
+          prvAddTaskToReadyList( pxNewTCB );
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c(1084): warning:  #223-D: function "tracePOST_MOVED_TASK_TO_READY_STATE" declared implicitly
+          prvAddTaskToReadyList( pxNewTCB );
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c(1094): error:  #20: identifier "pxCurrentTCB" is undefined
+          if( pxCurrentTCB->uxPriority < pxNewTCB->uxPriority )
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c(1114): error:  #20: identifier "pxTCB" is undefined
+          TCB_t * pxTCB;
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c(1120): error:  #20: identifier "pxCurrentTCB" is undefined
+              pxTCB = prvGetTCBFromHandle( xTaskToDelete );
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c(1188): error:  #20: identifier "pxCurrentTCB" is undefined
+          if( pxTCB != pxCurrentTCB )
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c(1352): error:  #757: variable "TCB_t"  is not a type name
+          const TCB_t * const pxTCB = xTask;
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c(1356): error:  #20: identifier "pxCurrentTCB" is undefined
+          if( pxTCB == pxCurrentTCB )
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c(1447): error:  #65: expected a ";"
+          TCB_t const * pxTCB;
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c(1448): error:  #268: declaration may not appear after executable statement in block
+          UBaseType_t uxReturn;
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c(1454): error:  #20: identifier "pxTCB" is undefined
+              pxTCB = prvGetTCBFromHandle( xTask );
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c(1454): error:  #20: identifier "pxCurrentTCB" is undefined
+              pxTCB = prvGetTCBFromHandle( xTask );
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c(1469): error:  #65: expected a ";"
+          TCB_t const * pxTCB;
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c(1470): error:  #268: declaration may not appear after executable statement in block
+          UBaseType_t uxReturn, uxSavedInterruptState;
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c(1494): error:  #20: identifier "pxTCB" is undefined
+              pxTCB = prvGetTCBFromHandle( xTask );
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c(1494): error:  #20: identifier "pxCurrentTCB" is undefined
+              pxTCB = prvGetTCBFromHandle( xTask );
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c(1510): error:  #20: identifier "pxTCB" is undefined
+          TCB_t * pxTCB;
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c(1511): error:  #268: declaration may not appear after executable statement in block
+          UBaseType_t uxCurrentBasePriority, uxPriorityUsedOnEntry;
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c(1512): error:  #268: declaration may not appear after executable statement in block
+          BaseType_t xYieldRequired = pdFALSE;
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c(1530): error:  #20: identifier "pxCurrentTCB" is undefined
+              pxTCB = prvGetTCBFromHandle( xTask );
+C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c: 2 warnings, 30 errors
+".\Objects\FreeRTOSDemo.axf" - 65 Error(s), 26 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS-FreeRTOS.10.5.1.pack
+                ARM.CMSIS-FreeRTOS.10.5.1
+                Bundle of FreeRTOS for Cortex-M and Cortex-A
+   * Component: Config Variant: FreeRTOS Version: 10.5.1
+   * Component: Core Variant: Cortex-M Version: 10.5.1
+   * Component: Coroutines Version: 10.5.1
+   * Component: Event Groups Version: 10.5.1
+   * Component: Heap Variant: Heap_4 Version: 10.5.1
+   * Component: Message Buffer Version: 10.5.1
+   * Component: Stream Buffer Version: 10.5.1
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil.STM32F1xx_DFP.2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+   * Component: Framework Version: 3.6.0
+   * Component: GPIO Version: 3.6.0
+   * Component: RCC Version: 3.6.0
+   * Component: SPI Version: 3.6.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\STM32F107VC
+  .\RTE\RTOS
+  .\RTE\_FreeRTOS
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\include
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM_CM3
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM.FreeRTOS::RTOS:Config:FreeRTOS:10.5.1
+      Include file:  Config\ARMCM\FreeRTOSConfig.h
+
+   * Component: ARM.FreeRTOS::RTOS:Core:Cortex-M:10.5.1
+      Include file:  Source\include\queue.h
+      Source file:   Source\list.c
+      Source file:   Source\queue.c
+      Source file:   Source\tasks.c
+      Include file:  Source\include\semphr.h
+      Include file:  Source\include\task.h
+      Include file:  Source\include\FreeRTOS.h
+      Source file:   Source\portable\RVDS\ARM_CM3\port.c
+      Source file:   CMSIS\RTOS2\FreeRTOS\Source\freertos_evr.c
+
+   * Component: ARM.FreeRTOS::RTOS:Coroutines:10.5.1
+      Source file:   Source\croutine.c
+      Include file:  Source\include\croutine.h
+
+   * Component: ARM.FreeRTOS::RTOS:Event Groups:10.5.1
+      Include file:  Source\include\event_groups.h
+      Source file:   Source\event_groups.c
+
+   * Component: ARM.FreeRTOS::RTOS:Heap:Heap_4:10.5.1
+      Source file:   Source\portable\MemMang\heap_4.c
+
+   * Component: ARM.FreeRTOS::RTOS:Message Buffer:10.5.1
+      Source file:   Source\stream_buffer.c
+      Include file:  Source\include\message_buffer.h
+
+   * Component: ARM.FreeRTOS::RTOS:Stream Buffer:10.5.1
+      Source file:   Source\stream_buffer.c
+      Include file:  Source\include\stream_buffer.h
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\system_stm32f10x.c
+      Include file:  RTE_Driver\Config\RTE_Device.h
+      Source file:   Device\Source\ARM\STM32F1xx_OPT.s
+      Source file:   Device\Source\ARM\startup_stm32f10x_cl.s
+
+   * Component: Keil::Device:StdPeriph Drivers:Framework:3.6.0
+      Include file:  Device\StdPeriph_Driver\inc\misc.h
+      Source file:   Device\StdPeriph_Driver\templates\stm32f10x_conf.h
+      Source file:   Device\StdPeriph_Driver\templates\stm32f10x_it.c
+      Source file:   Device\StdPeriph_Driver\src\misc.c
+      Include file:  Device\StdPeriph_Driver\templates\stm32f10x_it.h
+
+   * Component: Keil::Device:StdPeriph Drivers:GPIO:3.6.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_gpio.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_gpio.c
+
+   * Component: Keil::Device:StdPeriph Drivers:RCC:3.6.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_rcc.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_rcc.c
+
+   * Component: Keil::Device:StdPeriph Drivers:SPI:3.6.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_spi.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_spi.c
+Target not created.
+Build Time Elapsed:  00:00:29
+</pre>
+</body>
+</html>

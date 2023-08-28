@@ -1,0 +1,34 @@
+Dependencies for Project 'test', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060061::V5.06 update 1 (build 61)::ARMCC
+F (..\USER\main.c)(0x642D85DC)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I C:\Users\Admin\Desktop\Code\Study\RTOS\RTOS_LI\MDK\RTE-I C:\Users\Admin\Desktop\Code\Study\RTOS\RTOS_LI\MDK\RTE\Device\STM32F103C8-I C:\Users\Admin\Desktop\Code\Study\RTOS\RTOS_LI\MDK\RTE\RTOS-I C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\GCC\ARM_CM3-I C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM_CM3-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\RTOS2\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825467C)
+F (..\USER\gpio.c)(0x64A27DE1)()
+F (..\USER\gpio.h)(0x64A27DE1)()
+F (..\USER\input.c)(0x63BCCE72)()
+F (..\USER\input.h)(0x63BCCE7B)()
+F (..\USER\system.c)(0x64A3DB9C)()
+F (..\USER\system.h)(0x64A27DE1)()
+F (..\USER\transmission.c)(0x63BCCEAE)()
+F (..\USER\transmission.h)(0x63BCCEB4)()
+F (..\USER\usart.c)(0x642D85A4)()
+F (..\USER\usart.h)(0x63BBFC62)()
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Source\ARM\clib_arm.c)(0x6386C230)()
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Source\cmsis_os2.c)(0x6386C230)()
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Source\os_systick.c)(0x6386C230)()
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\src\misc.c)(0x61AD876E)()
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\src\stm32f10x_gpio.c)(0x61AD876E)()
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\src\stm32f10x_rcc.c)(0x61AD876E)()
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\src\stm32f10x_usart.c)(0x61AD876E)()
+F (RTE\Device\STM32F103C8\RTE_Device.h)(0x5927EDB6)()
+F (RTE\Device\STM32F103C8\startup_stm32f10x_md.s)(0x5825467C)()
+F (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9FBE0)()
+F (RTE\Device\STM32F103C8\system_stm32f10x.c)(0x5825467C)()
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Source\freertos_evr.c)(0x6386C230)()
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\event_groups.c)(0x6386C230)()
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\list.c)(0x6386C230)()
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\GCC\ARM_CM3\port.c)(0x6386C230)()
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\MemMang\heap_4.c)(0x6386C230)()
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c)(0x6386C230)()
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c)(0x6386C230)()
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\timers.c)(0x6386C230)()
+F (RTE\RTOS\FreeRTOSConfig.h)(0x6386C230)()

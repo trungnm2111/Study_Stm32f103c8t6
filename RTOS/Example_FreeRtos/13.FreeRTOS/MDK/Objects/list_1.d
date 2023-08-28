@@ -1,0 +1,12 @@
+.\objects\list_1.o: C:\Users\nvan0\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\list.c
+.\objects\list_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\list_1.o: ..\USER\FreeRTOS\include\FreeRTOS.h
+.\objects\list_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\list_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\list_1.o: ..\USER\FreeRTOSConfig.h
+.\objects\list_1.o: ..\USER\FreeRTOS\include\projdefs.h
+.\objects\list_1.o: ..\USER\FreeRTOS\include\portable.h
+.\objects\list_1.o: ..\USER\FreeRTOS\include\deprecated_definitions.h
+.\objects\list_1.o: ..\USER\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h
+.\objects\list_1.o: ..\USER\FreeRTOS\include\mpu_wrappers.h
+.\objects\list_1.o: ..\USER\FreeRTOS\include\list.h

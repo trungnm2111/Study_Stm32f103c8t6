@@ -1,0 +1,17 @@
+.\objects\freertos_evr.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Source\freertos_evr.c
+.\objects\freertos_evr.o: ..\USER\FreeRTOS\include\FreeRTOS.h
+.\objects\freertos_evr.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\freertos_evr.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\freertos_evr.o: ..\USER\FreeRTOSConfig.h
+.\objects\freertos_evr.o: ..\USER\FreeRTOS\include\projdefs.h
+.\objects\freertos_evr.o: ..\USER\FreeRTOS\include\portable.h
+.\objects\freertos_evr.o: ..\USER\FreeRTOS\include\deprecated_definitions.h
+.\objects\freertos_evr.o: ..\USER\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h
+.\objects\freertos_evr.o: ..\USER\FreeRTOS\include\mpu_wrappers.h
+.\objects\freertos_evr.o: ..\USER\FreeRTOS\include\task.h
+.\objects\freertos_evr.o: ..\USER\FreeRTOS\include\list.h
+.\objects\freertos_evr.o: ..\USER\FreeRTOS\include\semphr.h
+.\objects\freertos_evr.o: ..\USER\FreeRTOS\include\queue.h
+.\objects\freertos_evr.o: ..\USER\FreeRTOS\include\event_groups.h
+.\objects\freertos_evr.o: ..\USER\FreeRTOS\include\timers.h
+.\objects\freertos_evr.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\stream_buffer.h

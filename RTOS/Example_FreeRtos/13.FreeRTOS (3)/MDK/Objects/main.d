@@ -1,0 +1,32 @@
+.\objects\main.o: ..\USER\main.c
+.\objects\main.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h
+.\objects\main.o: C:\Users\congd\Desktop\Desktop\Documents\Code STM32\13.FreeRTOS (3)\MDK\RTE\RTE_Components.h
+.\objects\main.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.0\CMSIS\Include\core_cm3.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.0\CMSIS\Include\cmsis_version.h
+.\objects\main.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.0\CMSIS\Include\cmsis_compiler.h
+.\objects\main.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.0\CMSIS\Include\cmsis_armcc.h
+.\objects\main.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h
+.\objects\main.o: C:\Users\congd\Desktop\Desktop\Documents\Code STM32\13.FreeRTOS (3)\MDK\RTE\Device\STM32F107VC\stm32f10x_conf.h
+.\objects\main.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\objects\main.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h
+.\objects\main.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\objects\main.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h
+.\objects\main.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\misc.h
+.\objects\main.o: ..\USER\Delay.h
+.\objects\main.o: ..\USER\N5110\N5110.h
+.\objects\main.o: ..\USER\SPI\SPI.h
+.\objects\main.o: ..\USER\FreeRTOS\include\FreeRTOS.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\main.o: ..\USER\FreeRTOSConfig.h
+.\objects\main.o: ..\USER\FreeRTOS\include\projdefs.h
+.\objects\main.o: ..\USER\FreeRTOS\include\portable.h
+.\objects\main.o: ..\USER\FreeRTOS\include\deprecated_definitions.h
+.\objects\main.o: ..\USER\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h
+.\objects\main.o: ..\USER\FreeRTOS\include\mpu_wrappers.h
+.\objects\main.o: ..\USER\FreeRTOS\include\task.h
+.\objects\main.o: ..\USER\FreeRTOS\include\list.h
+.\objects\main.o: ..\USER\FreeRTOS\include\semphr.h
+.\objects\main.o: ..\USER\FreeRTOS\include\queue.h
+.\objects\main.o: ..\USER\FreeRTOS\include\event_groups.h
+.\objects\main.o: ..\USER\FreeRTOS\include\timers.h

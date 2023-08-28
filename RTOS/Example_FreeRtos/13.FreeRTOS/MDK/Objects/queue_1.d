@@ -1,0 +1,15 @@
+.\objects\queue_1.o: C:\Users\nvan0\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c
+.\objects\queue_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\queue_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\queue_1.o: ..\USER\FreeRTOS\include\FreeRTOS.h
+.\objects\queue_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\queue_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\queue_1.o: ..\USER\FreeRTOSConfig.h
+.\objects\queue_1.o: ..\USER\FreeRTOS\include\projdefs.h
+.\objects\queue_1.o: ..\USER\FreeRTOS\include\portable.h
+.\objects\queue_1.o: ..\USER\FreeRTOS\include\deprecated_definitions.h
+.\objects\queue_1.o: ..\USER\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h
+.\objects\queue_1.o: ..\USER\FreeRTOS\include\mpu_wrappers.h
+.\objects\queue_1.o: ..\USER\FreeRTOS\include\task.h
+.\objects\queue_1.o: ..\USER\FreeRTOS\include\list.h
+.\objects\queue_1.o: ..\USER\FreeRTOS\include\queue.h

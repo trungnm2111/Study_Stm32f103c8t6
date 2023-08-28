@@ -1,0 +1,284 @@
+Dependencies for Project 'FreeRTOSDemo', Target 'FreeRTOS': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\USER\Delay.c)(0x5A1BEB92)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER\FreeRTOS\include -I ..\USER -I ..\USER\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\USER\N5110 -I ..\USER\SPI-I.\RTE\Device\STM32F107VC-I.\RTE\RTOS-I.\RTE\_FreeRTOS-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM_CM3-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_CL -D_RTE_-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (.\RTE\_FreeRTOS\RTE_Components.h)(0x64B9F012)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
+I (.\RTE\Device\STM32F107VC\stm32f10x_conf.h)(0x5A1BEC00)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x61AD876E)
+I (..\USER\CONFIG_STM32F10X.h)(0x5A1BEB92)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (..\USER\Delay.h)(0x5A1BEB92)
+F (..\USER\main.c)(0x5A1BEB92)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER\FreeRTOS\include -I ..\USER -I ..\USER\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\USER\N5110 -I ..\USER\SPI-I.\RTE\Device\STM32F107VC-I.\RTE\RTOS-I.\RTE\_FreeRTOS-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM_CM3-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_CL -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (.\RTE\_FreeRTOS\RTE_Components.h)(0x64B9F012)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
+I (.\RTE\Device\STM32F107VC\stm32f10x_conf.h)(0x5A1BEC00)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x61AD876E)
+I (..\USER\Delay.h)(0x5A1BEB92)
+I (..\USER\FreeRTOS\include\FreeRTOS.h)(0x5A1BEBFC)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (..\USER\FreeRTOSConfig.h)(0x5A1BEB92)
+I (..\USER\FreeRTOS\include\projdefs.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\portable.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\deprecated_definitions.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5A1BEC0C)
+I (..\USER\FreeRTOS\include\mpu_wrappers.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\task.h)(0x5A1BEBFA)
+I (..\USER\FreeRTOS\include\list.h)(0x5A1BEBFC)
+I (..\USER\N5110\N5110.h)(0x5A1BEBA6)
+I (..\USER\SPI\SPI.h)(0x5A1BEBA6)
+I (..\USER\FreeRTOS\include\semphr.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\queue.h)(0x5A1BEBFC)
+F (..\USER\SPI\SPI.c)(0x5A1BEBA6)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER\FreeRTOS\include -I ..\USER -I ..\USER\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\USER\N5110 -I ..\USER\SPI-I.\RTE\Device\STM32F107VC-I.\RTE\RTOS-I.\RTE\_FreeRTOS-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM_CM3-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_CL -D_RTE_-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
+I (..\USER\SPI\SPI.h)(0x5A1BEBA6)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (.\RTE\_FreeRTOS\RTE_Components.h)(0x64B9F012)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
+I (.\RTE\Device\STM32F107VC\stm32f10x_conf.h)(0x5A1BEC00)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x61AD876E)
+F (..\USER\N5110\N5110.c)(0x5A1BEBA6)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER\FreeRTOS\include -I ..\USER -I ..\USER\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\USER\N5110 -I ..\USER\SPI-I.\RTE\Device\STM32F107VC-I.\RTE\RTOS-I.\RTE\_FreeRTOS-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM_CM3-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_CL -D_RTE_-o .\objects\n5110.o --omf_browse .\objects\n5110.crf --depend .\objects\n5110.d)
+I (..\USER\N5110\N5110.h)(0x5A1BEBA6)
+I (..\USER\Delay.h)(0x5A1BEB92)
+I (..\USER\SPI\SPI.h)(0x5A1BEBA6)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (.\RTE\_FreeRTOS\RTE_Components.h)(0x64B9F012)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
+I (.\RTE\Device\STM32F107VC\stm32f10x_conf.h)(0x5A1BEC00)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x61AD876E)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\src\misc.c)(0x61AD876E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER\FreeRTOS\include -I ..\USER -I ..\USER\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\USER\N5110 -I ..\USER\SPI-I.\RTE\Device\STM32F107VC-I.\RTE\RTOS-I.\RTE\_FreeRTOS-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM_CM3-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_CL -D_RTE_-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (.\RTE\_FreeRTOS\RTE_Components.h)(0x64B9F012)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
+I (.\RTE\Device\STM32F107VC\stm32f10x_conf.h)(0x5A1BEC00)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x61AD876E)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\src\stm32f10x_gpio.c)(0x61AD876E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER\FreeRTOS\include -I ..\USER -I ..\USER\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\USER\N5110 -I ..\USER\SPI-I.\RTE\Device\STM32F107VC-I.\RTE\RTOS-I.\RTE\_FreeRTOS-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM_CM3-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_CL -D_RTE_-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (.\RTE\_FreeRTOS\RTE_Components.h)(0x64B9F012)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
+I (.\RTE\Device\STM32F107VC\stm32f10x_conf.h)(0x5A1BEC00)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x61AD876E)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\src\stm32f10x_rcc.c)(0x61AD876E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER\FreeRTOS\include -I ..\USER -I ..\USER\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\USER\N5110 -I ..\USER\SPI-I.\RTE\Device\STM32F107VC-I.\RTE\RTOS-I.\RTE\_FreeRTOS-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM_CM3-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_CL -D_RTE_-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (.\RTE\_FreeRTOS\RTE_Components.h)(0x64B9F012)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
+I (.\RTE\Device\STM32F107VC\stm32f10x_conf.h)(0x5A1BEC00)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x61AD876E)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\src\stm32f10x_spi.c)(0x61AD876E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER\FreeRTOS\include -I ..\USER -I ..\USER\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\USER\N5110 -I ..\USER\SPI-I.\RTE\Device\STM32F107VC-I.\RTE\RTOS-I.\RTE\_FreeRTOS-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM_CM3-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_CL -D_RTE_-o .\objects\stm32f10x_spi.o --omf_browse .\objects\stm32f10x_spi.crf --depend .\objects\stm32f10x_spi.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (.\RTE\_FreeRTOS\RTE_Components.h)(0x64B9F012)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
+I (.\RTE\Device\STM32F107VC\stm32f10x_conf.h)(0x5A1BEC00)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x61AD876E)
+F (RTE\Device\STM32F107VC\RTE_Device.h)(0x5A1BEC00)()
+F (RTE\Device\STM32F107VC\startup_stm32f10x_cl.s)(0x5A1BEC00)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\Device\STM32F107VC-I.\RTE\RTOS-I.\RTE\_FreeRTOS-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM_CM3-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc--pd "__UVISION_VERSION SETA 533" --pd "_RTE_ SETA 1" --pd "STM32F10X_CL SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_stm32f10x_cl.lst --xref -o .\objects\startup_stm32f10x_cl.o --depend .\objects\startup_stm32f10x_cl.d)
+F (RTE\Device\STM32F107VC\stm32f10x_conf.h)(0x5A1BEC00)()
+F (RTE\Device\STM32F107VC\system_stm32f10x.c)(0x5A1BEC00)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER\FreeRTOS\include -I ..\USER -I ..\USER\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\USER\N5110 -I ..\USER\SPI-I.\RTE\Device\STM32F107VC-I.\RTE\RTOS-I.\RTE\_FreeRTOS-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM_CM3-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_CL -D_RTE_-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (.\RTE\_FreeRTOS\RTE_Components.h)(0x64B9F012)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
+I (.\RTE\Device\STM32F107VC\stm32f10x_conf.h)(0x5A1BEC00)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x61AD876E)
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Source\freertos_evr.c)(0x6386C230)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER\FreeRTOS\include -I ..\USER -I ..\USER\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\USER\N5110 -I ..\USER\SPI-I.\RTE\Device\STM32F107VC-I.\RTE\RTOS-I.\RTE\_FreeRTOS-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM_CM3-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_CL -D_RTE_-o .\objects\freertos_evr.o --omf_browse .\objects\freertos_evr.crf --depend .\objects\freertos_evr.d)
+I (..\USER\FreeRTOS\include\FreeRTOS.h)(0x5A1BEBFC)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\USER\FreeRTOSConfig.h)(0x5A1BEB92)
+I (..\USER\FreeRTOS\include\projdefs.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\portable.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\deprecated_definitions.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5A1BEC0C)
+I (..\USER\FreeRTOS\include\mpu_wrappers.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\task.h)(0x5A1BEBFA)
+I (..\USER\FreeRTOS\include\list.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\semphr.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\queue.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\event_groups.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\timers.h)(0x5A1BEBFA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\stream_buffer.h)(0x6386C230)
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\croutine.c)(0x6386C230)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER\FreeRTOS\include -I ..\USER -I ..\USER\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\USER\N5110 -I ..\USER\SPI-I.\RTE\Device\STM32F107VC-I.\RTE\RTOS-I.\RTE\_FreeRTOS-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM_CM3-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_CL -D_RTE_-o .\objects\croutine.o --omf_browse .\objects\croutine.crf --depend .\objects\croutine.d)
+I (..\USER\FreeRTOS\include\FreeRTOS.h)(0x5A1BEBFC)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\USER\FreeRTOSConfig.h)(0x5A1BEB92)
+I (..\USER\FreeRTOS\include\projdefs.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\portable.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\deprecated_definitions.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5A1BEC0C)
+I (..\USER\FreeRTOS\include\mpu_wrappers.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\task.h)(0x5A1BEBFA)
+I (..\USER\FreeRTOS\include\list.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\croutine.h)(0x5A1BEBFC)
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\event_groups.c)(0x6386C230)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER\FreeRTOS\include -I ..\USER -I ..\USER\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\USER\N5110 -I ..\USER\SPI-I.\RTE\Device\STM32F107VC-I.\RTE\RTOS-I.\RTE\_FreeRTOS-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM_CM3-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_CL -D_RTE_-o .\objects\event_groups.o --omf_browse .\objects\event_groups.crf --depend .\objects\event_groups.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\USER\FreeRTOS\include\FreeRTOS.h)(0x5A1BEBFC)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\USER\FreeRTOSConfig.h)(0x5A1BEB92)
+I (..\USER\FreeRTOS\include\projdefs.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\portable.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\deprecated_definitions.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5A1BEC0C)
+I (..\USER\FreeRTOS\include\mpu_wrappers.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\task.h)(0x5A1BEBFA)
+I (..\USER\FreeRTOS\include\list.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\timers.h)(0x5A1BEBFA)
+I (..\USER\FreeRTOS\include\event_groups.h)(0x5A1BEBFC)
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\list.c)(0x6386C230)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER\FreeRTOS\include -I ..\USER -I ..\USER\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\USER\N5110 -I ..\USER\SPI-I.\RTE\Device\STM32F107VC-I.\RTE\RTOS-I.\RTE\_FreeRTOS-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM_CM3-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_CL -D_RTE_-o .\objects\list.o --omf_browse .\objects\list.crf --depend .\objects\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\USER\FreeRTOS\include\FreeRTOS.h)(0x5A1BEBFC)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\USER\FreeRTOSConfig.h)(0x5A1BEB92)
+I (..\USER\FreeRTOS\include\projdefs.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\portable.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\deprecated_definitions.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5A1BEC0C)
+I (..\USER\FreeRTOS\include\mpu_wrappers.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\list.h)(0x5A1BEBFC)
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\MemMang\heap_4.c)(0x6386C230)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER\FreeRTOS\include -I ..\USER -I ..\USER\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\USER\N5110 -I ..\USER\SPI-I.\RTE\Device\STM32F107VC-I.\RTE\RTOS-I.\RTE\_FreeRTOS-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM_CM3-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_CL -D_RTE_-o .\objects\heap_4.o --omf_browse .\objects\heap_4.crf --depend .\objects\heap_4.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (..\USER\FreeRTOS\include\FreeRTOS.h)(0x5A1BEBFC)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\USER\FreeRTOSConfig.h)(0x5A1BEB92)
+I (..\USER\FreeRTOS\include\projdefs.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\portable.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\deprecated_definitions.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5A1BEC0C)
+I (..\USER\FreeRTOS\include\mpu_wrappers.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\task.h)(0x5A1BEBFA)
+I (..\USER\FreeRTOS\include\list.h)(0x5A1BEBFC)
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM_CM3\port.c)(0x6386C230)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER\FreeRTOS\include -I ..\USER -I ..\USER\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\USER\N5110 -I ..\USER\SPI-I.\RTE\Device\STM32F107VC-I.\RTE\RTOS-I.\RTE\_FreeRTOS-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM_CM3-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_CL -D_RTE_-o .\objects\port.o --omf_browse .\objects\port.crf --depend .\objects\port.d)
+I (..\USER\FreeRTOS\include\FreeRTOS.h)(0x5A1BEBFC)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\USER\FreeRTOSConfig.h)(0x5A1BEB92)
+I (..\USER\FreeRTOS\include\projdefs.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\portable.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\deprecated_definitions.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5A1BEC0C)
+I (..\USER\FreeRTOS\include\mpu_wrappers.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\task.h)(0x5A1BEBFA)
+I (..\USER\FreeRTOS\include\list.h)(0x5A1BEBFC)
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c)(0x6386C230)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER\FreeRTOS\include -I ..\USER -I ..\USER\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\USER\N5110 -I ..\USER\SPI-I.\RTE\Device\STM32F107VC-I.\RTE\RTOS-I.\RTE\_FreeRTOS-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM_CM3-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_CL -D_RTE_-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (..\USER\FreeRTOS\include\FreeRTOS.h)(0x5A1BEBFC)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\USER\FreeRTOSConfig.h)(0x5A1BEB92)
+I (..\USER\FreeRTOS\include\projdefs.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\portable.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\deprecated_definitions.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5A1BEC0C)
+I (..\USER\FreeRTOS\include\mpu_wrappers.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\task.h)(0x5A1BEBFA)
+I (..\USER\FreeRTOS\include\list.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\queue.h)(0x5A1BEBFC)
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\stream_buffer.c)(0x6386C230)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER\FreeRTOS\include -I ..\USER -I ..\USER\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\USER\N5110 -I ..\USER\SPI-I.\RTE\Device\STM32F107VC-I.\RTE\RTOS-I.\RTE\_FreeRTOS-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM_CM3-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_CL -D_RTE_-o .\objects\stream_buffer.o --omf_browse .\objects\stream_buffer.crf --depend .\objects\stream_buffer.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (..\USER\FreeRTOS\include\FreeRTOS.h)(0x5A1BEBFC)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (..\USER\FreeRTOSConfig.h)(0x5A1BEB92)
+I (..\USER\FreeRTOS\include\projdefs.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\portable.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\deprecated_definitions.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5A1BEC0C)
+I (..\USER\FreeRTOS\include\mpu_wrappers.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\task.h)(0x5A1BEBFA)
+I (..\USER\FreeRTOS\include\list.h)(0x5A1BEBFC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\stream_buffer.h)(0x6386C230)
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c)(0x6386C230)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER\FreeRTOS\include -I ..\USER -I ..\USER\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\USER\N5110 -I ..\USER\SPI-I.\RTE\Device\STM32F107VC-I.\RTE\RTOS-I.\RTE\_FreeRTOS-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM_CM3-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_CL -D_RTE_-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (..\USER\FreeRTOS\include\FreeRTOS.h)(0x5A1BEBFC)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\USER\FreeRTOSConfig.h)(0x5A1BEB92)
+I (..\USER\FreeRTOS\include\projdefs.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\portable.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\deprecated_definitions.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5A1BEC0C)
+I (..\USER\FreeRTOS\include\mpu_wrappers.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\task.h)(0x5A1BEBFA)
+I (..\USER\FreeRTOS\include\list.h)(0x5A1BEBFC)
+I (..\USER\FreeRTOS\include\timers.h)(0x5A1BEBFA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\stack_macros.h)(0x6386C230)
+F (RTE\RTOS\FreeRTOSConfig.h)(0x6152ADD2)()
